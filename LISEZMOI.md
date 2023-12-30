@@ -1,3 +1,3 @@
 # LehyenSkang
 
-_(English revision)(README.md)_
+_[English revision](README.md)_

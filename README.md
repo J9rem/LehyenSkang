@@ -1,3 +1,3 @@
 # LehyenSkang
 
-_(Version française)(LISEZMOI.md)_
+_[Version française](LISEZMOI.md)_
