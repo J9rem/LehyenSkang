@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59c34e7daac901be0ef8d358c84cfd80",
+    "content-hash": "4620f291ecea80482b18a3365b0858b2",
     "packages": [
         {
             "name": "erusev/parsedown",
@@ -123,12 +123,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/J9rem/LehyenSkangApp.git",
-                "reference": "12f76668e58ad607e5ec2e96b08c9559d4444bf4"
+                "reference": "31d8c96e38f2d5790a1b3db9a698747511fe4961"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/J9rem/LehyenSkangApp/zipball/12f76668e58ad607e5ec2e96b08c9559d4444bf4",
-                "reference": "12f76668e58ad607e5ec2e96b08c9559d4444bf4",
+                "url": "https://api.github.com/repos/J9rem/LehyenSkangApp/zipball/31d8c96e38f2d5790a1b3db9a698747511fe4961",
+                "reference": "31d8c96e38f2d5790a1b3db9a698747511fe4961",
                 "shasum": ""
             },
             "require": {
@@ -140,6 +140,7 @@
                 "ext-mbstring": "*",
                 "ext-pcre": "*",
                 "php": "^7.4||^8.1",
+                "picocms/composer-installer": "dev-pico-3.0",
                 "picocms/pico": "dev-pico-3.0"
             },
             "require-dev": {
@@ -150,6 +151,11 @@
             "extra": {
                 "pico-plugin-dir": "vendor/picocms/plugins/",
                 "pico-theme-dir": "vendor/picocms/themes/"
+            },
+            "autoload": {
+                "psr-4": {
+                    "LehyenSkang\\": "src/php"
+                }
             },
             "archive": {
                 "exclude": [
@@ -183,7 +189,76 @@
                 "issues": "https://github.com/J9rem/LehyenSkangApp/issues",
                 "source": "https://github.com/J9rem/LehyenSkangApp"
             },
-            "time": "2023-12-30T20:52:32+00:00"
+            "time": "2023-12-30T21:37:56+00:00"
+        },
+        {
+            "name": "picocms/composer-installer",
+            "version": "dev-pico-3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/picocms/composer-installer.git",
+                "reference": "8e59c0f0ab55af384b4a788179de4e169bb1f60e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/picocms/composer-installer/zipball/8e59c0f0ab55af384b4a788179de4e169bb1f60e",
+                "reference": "8e59c0f0ab55af384b4a788179de4e169bb1f60e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.1",
+                "php": ">=7.2"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "picocms\\ComposerInstaller\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev",
+                    "dev-pico-3.0": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "picocms\\ComposerInstaller\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Rudolf",
+                    "email": "picocms.org@daniel-rudolf.de",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "The Pico Community",
+                    "homepage": "https://picocms.org/"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/picocms/composer-installer/graphs/contributors"
+                }
+            ],
+            "description": "A composer plugin responsible for installing plugins and themes for Pico, a stupidly simple, blazing fast, flat file CMS.",
+            "homepage": "https://picocms.org/",
+            "keywords": [
+                "composer",
+                "composer-installer",
+                "composer-plugin",
+                "pico",
+                "pico-cms",
+                "picocms",
+                "picocms-installer",
+                "picocms-plugin",
+                "picocms-theme"
+            ],
+            "support": {
+                "issues": "https://github.com/picocms/composer-installer/issues",
+                "source": "https://github.com/picocms/composer-installer"
+            },
+            "time": "2022-02-27T16:50:04+00:00"
         },
         {
             "name": "picocms/pico",
@@ -280,6 +355,66 @@
                 }
             ],
             "time": "2023-12-02T13:35:38+00:00"
+        },
+        {
+            "name": "picocms/pico-theme",
+            "version": "dev-pico-3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/picocms/pico-theme.git",
+                "reference": "f322a0bbdd115ee1ad14fc50b96a07e79b2a9bd4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/picocms/pico-theme/zipball/f322a0bbdd115ee1ad14fc50b96a07e79b2a9bd4",
+                "reference": "f322a0bbdd115ee1ad14fc50b96a07e79b2a9bd4",
+                "shasum": ""
+            },
+            "require": {
+                "picocms/pico": "self.version"
+            },
+            "type": "pico-theme",
+            "extra": {
+                "installer-name": "default",
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev",
+                    "dev-pico-3.0": "3.0.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Rudolf",
+                    "email": "picocms.org@daniel-rudolf.de",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "The Pico Community",
+                    "homepage": "https://picocms.org/"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/picocms/pico-theme/graphs/contributors"
+                }
+            ],
+            "description": "This is Pico's official default theme. Pico is a stupidly simple, blazing fast, flat file CMS.",
+            "homepage": "https://picocms.org/",
+            "keywords": [
+                "default-theme",
+                "pico",
+                "pico-theme",
+                "picocms",
+                "picocms-theme"
+            ],
+            "support": {
+                "docs": "https://picocms.org/themes/default/",
+                "issues": "https://github.com/picocms/pico-theme/issues",
+                "source": "https://github.com/picocms/pico-theme"
+            },
+            "time": "2023-01-05T21:58:52+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -2495,7 +2630,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "j9rem/lehyen-skang-app": 20,
-        "picocms/pico": 20
+        "picocms/composer-installer": 20,
+        "picocms/pico-theme": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

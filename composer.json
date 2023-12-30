@@ -29,7 +29,8 @@
         "erusev/parsedown": "2.0.0-beta-1 as 1.7.4",
         "erusev/parsedown-extra": "2.0.0-beta-1 as 0.8.1",
         "j9rem/lehyen-skang-app": "dev-master",
-        "picocms/pico": "dev-pico-3.0"
+        "picocms/composer-installer": "dev-pico-3.0",
+        "picocms/pico-theme": "dev-pico-3.0#f322a0bbdd115ee1ad14fc50b96a07e79b2a9bd4"
     },
     "config": {
         "optimize-autoloader": true,
