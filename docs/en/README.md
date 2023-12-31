@@ -7,3 +7,4 @@ _[Version française](../fr/LISEZMOI.md)_
  - [LICENCE](../../LICENCE)
  - [Code of conduct](../../CODE_OF_CONDUCT.md)
  - [Install documentation](./install.md)
+ - [Explanations on composer.json](./composer-file-explanations.md)

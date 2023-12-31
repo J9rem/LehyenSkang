@@ -2,7 +2,6 @@
     "name": "j9rem/lehyen-skang",
     "readme": "README.md",
     "license": "EUPL-1.2",
-    "prefer-stable": true,
     "description": "Main package of LehyenSkang project for a light CMS based on PicoCMS",
     "keywords": [ "pico", "picocms","lehyenskang"],
     "homepage": "https://github.com/J9rem/LehyenSkang",
@@ -18,6 +17,7 @@
       "issues": "https://github.com/J9rem/LehyenSkang/issues",
       "source": "https://github.com/J9rem/LehyenSkang"
     },
+    "prefer-stable": true,
     "minimum-stability": "dev",
     "require": {
         "php": "^7.4||^8.1",
