@@ -44,7 +44,7 @@ Le fichier `composer.json` est localisé à la racine du dossier du projet.
         "source": "https://github.com/J9rem/LehyenSkang"
       },
   ```
- - INdique qu'il faut préférer les versions stables pour les dépendances
+ - Indique qu'il faut préférer les versions stables pour les dépendances
   ```json
       "prefer-stable": true,
   ```
@@ -52,7 +52,7 @@ Le fichier `composer.json` est localisé à la racine du dossier du projet.
   ```json
       "minimum-stability": "dev",
   ```
- - OUvre la zone de définition des dépendances
+ - Ouvre la zone de définition des dépendances
   ```json
       "require": {
   ```
