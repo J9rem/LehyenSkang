@@ -65,8 +65,5 @@
             "type": "vcs",
             "url": "https://github.com/J9rem/LehyenSkangApp"
         }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.0"
     }
 }

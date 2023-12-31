@@ -20,3 +20,13 @@ L'installation de `LehyenSkang` en mode facile n'est pas encore disponible.
 ## Pourquoi ce nom ?
 
 `LehyenSkang` ne semble pas exister. C'est une notation prononçable en Anglais pour s'approcher des termes [bretons](https://fr.wikipedia.org/wiki/Breton) `Lec'hienn Skañv` qui signifient `site léger`.
+
+## Documentation détaillée
+
+Une documentation détaillée est disponible pour les personnes habituées à ce type de logiciel : [`docs/fr/LISEZMOI.md`](./docs/fr/LISEZMOI.md)
+
+## Comment aider ?
+
+ - En participant au financement du développement de ce logiciel auprès de [J9rem](https://github.com/J9rem) via Liberapay : https://liberapay.com/J9rem/donate
+ - En signalant les soucis éventuels sur la page dédiée : https://github.com/J9rem/LehyenSkang/issues
+ - En répondant aux autres usagers sur les problèmes et questions posées par les autres usagers à cet endroit : https://github.com/J9rem/LehyenSkang/issues (implication libre, tout en respectant le [code de conduite](./docs/fr/CODE_DE_CONDUITE.md))

@@ -20,3 +20,13 @@ The easy way to install LehyenSkang is not already available.
 ## Why this name ?
 
 `LehyenSkang` seems not to exist. This is an English pronounceable notation to come closer to [Breton](https://en.wikipedia.org/wiki/Breton_language) terms `Lec'hienn Skañv` which mean `light site`.
+
+## Detailled documentation
+
+A detailled documentation for people with habit to use such a software : [`docs/en/README.md`](./docs/en/README.md)
+
+## How help ?
+
+ - With a donation to help the development of this software by [J9rem](https://github.com/J9rem) via Liberapay : https://liberapay.com/J9rem/donate
+ - Creating issues on dedicated page : https://github.com/J9rem/LehyenSkang/issues
+ - Anwsering to other users on issues or questions created here : https://github.com/J9rem/LehyenSkang/issues (free implication, respecting [code of conduct](./CODE_OF_CONDUCT.md))
